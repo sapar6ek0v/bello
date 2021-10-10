@@ -1,0 +1,1035 @@
+@media (max-width: 1200px) {
+/*from 1200px to 992px*/
+    .container{
+        max-width: 960px;
+    }
+    .col-3{
+        width: 35%;
+        margin: 0 auto;
+    }
+    .header-nav {
+        padding-right: 330px;
+    }
+    .header-li {
+        padding-right: 25px;
+    }
+    .header-login {
+        padding-right: 20px;
+    }
+    .header-menu img {
+        padding-right: 25px;
+    }
+    .hero{
+        overflow: hidden;
+    }
+    .hero-photo img {
+        height: 582px;
+        top: 28px;
+        right: -17px;
+    }
+    .hero-blog {
+        padding: 138px 0 0 26px;
+        z-index: 10;
+        position: absolute;
+    }
+    .life-blog img {
+        height: 301px;
+    }
+    .life-box-title {
+        max-width: 396px;
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 49px;
+        color: #1D253C;
+        margin-bottom: 15px;
+    }
+    .life-box {
+        padding: 122px 0 0 5px;
+    }
+    .info-bg-dog {
+        position: absolute;
+        top: -136px;
+        right: 6px;
+    }
+    .info-bg-three {
+        left: 64px;
+    }
+    .round-box{
+        margin-bottom: 25px;
+    }
+    .technology-mean {
+        max-width: 410px;
+        font-size: 19px;
+        line-height: 30px;
+        color: #5A6482;
+        margin-bottom: 15px;
+    }
+    .technology-part-photo {
+        height: 420px;
+        position: absolute;
+        z-index: 5;
+    }
+    .technology-sub-photo {
+        height: 100px;
+    }
+    .partner-card-subphoto-two {
+        padding: 14px 0 0;
+        height: 96px;
+        margin-bottom: 43px;
+    }
+    .price-photo-two {
+        position: absolute;
+        top: -62px;
+        left: -109px;
+    }
+    .price-photo {
+        position: absolute;
+        bottom: 0;
+        right: 59px;
+    }
+    .info-box {
+        overflow: hidden;
+    }
+    .about-box {
+        padding: 148px 0 200px;
+    }
+    .about-photo {
+        height: 420px;
+        position: absolute;
+        left: 38px;
+        z-index: 13;
+    }
+    .about-photo-three {
+        height: 87px;
+        position: absolute;
+        top: -45px;
+        left: 12px;
+    }
+    .technology-box {
+        padding: 214px 0 0 29px;
+    }
+    .technology-mean-photo {
+        position: absolute;
+        bottom: -180px;
+        left: 16px;
+        z-index: 8;
+        height: 113px;
+    }
+    .about-photo-two {
+        height: 110px;
+        position: absolute;
+        top: 368px;
+        right: 16px;
+        z-index: 14;
+    }
+    .about-blog {
+        padding: 68px 0 0 38px;
+    }
+    .footer-box {
+        padding-right: 75px;
+    }
+    .footer-box-mean {
+        max-width: 300px;
+    }
+    .footer-end {
+        max-width: 908px;
+    }
+
+}
+
+
+
+@media (max-width: 992px) {
+    /*from 992px to 768px*/
+    .container {
+        max-width: 750px;
+    }
+
+    .col-4 {
+        width: 48.33%;
+        padding: 0 15px;
+    }
+
+    .col-4:last-child {
+        margin: 0 auto;
+    }
+    .col-5 {
+        width: 49%;
+        padding: 0 15px;
+    }
+    .col-6 {
+        width: 100%;
+    }
+    .hero {
+        height: calc(100vh - 105pc);
+        min-height: 610px;
+        position: relative;
+        margin-top: 105px;
+    }
+    .hero-blog {
+        width: 100%;
+        padding: 130px 0 0 26px;
+        z-index: 10;
+        position: absolute;
+    }
+    .hero-mean {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .hero-photo img {
+        height: 602px;
+        top: 62px;
+        right: -164px;
+        opacity: 0.8;
+    }
+    .header-login, .header-button, .header-ul {
+        display: none;
+    }
+    .life-blog-box {
+        padding: 70px 0 0 40px;
+    }
+
+    .life-box {
+        width: 100%;
+        padding: 75px 0 59px 45px;
+    }
+
+    .life-blog {
+        max-width: 427px;
+    }
+
+    .life-box-title {
+        max-width: 75%;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+
+    .life-box-mean {
+        max-width: 94%;
+        font-size: 19px;
+        line-height: 27px;
+        margin-bottom: 22px;
+    }
+
+    .technology {
+        min-height: 1170px;
+    }
+
+    .technology-box {
+        padding: 125px 0 0 46px;
+    }
+
+    .technology-subtitle {
+        margin-bottom: 25px;
+    }
+
+    .technology-mean {
+        max-width: 551px;
+        line-height: 29px;
+    }
+
+    .technology-photo-box {
+        padding: 95px 0 0 40px;
+    }
+
+    .technology-part-photo {
+        height: 550px;
+    }
+
+    .technology-sub-photo {
+        position: absolute;
+        top: 58px;
+        left: -4px;
+    }
+
+    .technology-mean-photo {
+        position: absolute;
+        bottom: -640px;
+        left: 247px;
+        z-index: 8;
+        height: 118px;
+    }
+
+    .partner-card {
+        margin-bottom: 25px;
+    }
+    .info-bg {
+        width: 364px;
+        position: absolute;
+        top: 379px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+    .about-blog {
+        padding: 660px 0 0 38px;
+    }
+    .about-item {
+        max-width: 546px;
+        margin-bottom: 20px;
+    }
+    .about-box {
+        padding: 148px 0 95px;
+    }
+    .about-photo {
+        height: 550px;
+        position: absolute;
+        left: 38px;
+        z-index: 13;
+    }
+    .about-photo-two {
+        height: 123px;
+        position: absolute;
+        top: 483px;
+        right: 109px;
+        z-index: 14;
+    }
+    .about-photo-three {
+        height: 110px;
+        position: absolute;
+        top: -45px;
+        left: -3px;
+    }
+    .round-page {
+        padding: 140px 0 134px;
+    }
+    .price-photo {
+        height: 187px;
+        position: absolute;
+        bottom: 0;
+        right: 32px;
+    }
+    .price-photo-two {
+        height: 400px;
+        position: absolute;
+        left: -118px;
+        top: -17px;
+    }
+    .price-mean {
+        max-width: 336px;
+        margin: 0 auto 35px;
+    }
+    .price-page {
+        text-align: center;
+        padding: 107px 0 58px;
+        position: relative;
+    }
+    .footer-box {
+        padding-right: 75px;
+        margin-bottom: 40px;
+    }
+    .footer-end {
+        max-width: 700px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+/*768px to 576px*/
+    .container{
+        max-width: 550px;
+    }
+    .col-3 {
+        width: 70%;
+    }
+    .col-4 {
+        width: 76.33%;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .col-5 {
+        width: 81%;
+        margin: 0 auto;
+    }
+    .hero-title {
+        max-width: 453px;
+        min-height: 136px;
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 63px;
+        text-transform: capitalize;
+        color: #1D253C;
+        margin-bottom: 17px;
+    }
+    .hero-photo img {
+        height: 612px;
+        top: 1px;
+        right: -174px;
+        opacity: 0.8;
+        background: rgba(255,0,255,0.6);
+    }
+    .life-box-title {
+        max-width: 82%;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+    .technology {
+        min-height: 1079px;
+    }
+    .technology-box {
+        padding: 86px 0 0 46px;
+    }
+    .technology-part-photo {
+        height: 450px;
+        left: 30px;
+    }
+    .technology-sub-photo {
+        position: absolute;
+        top: 58px;
+        left: 2px;
+    }
+    .technology-mean-photo {
+        position: absolute;
+        bottom: -536px;
+        left: 185px;
+        z-index: 8;
+        height: 101px;
+    }
+    .partner-bg-dog {
+        height: 137px;
+    }
+    .info-box {
+        padding: 60px 0 72px;
+    }
+    .info-bg {
+        width: 462px;
+        position: absolute;
+        top: 588px;
+        transform: rotate(90deg);
+        opacity: 0.5;
+    }
+    .info-bg-two {
+        height: 186px;
+        position: absolute;
+        top: 867px;
+        right: 110px;
+        transform: rotate(90deg);
+        opacity: 0.4;
+    }
+    .info-bg-three {
+        left: 366px;
+        transform: rotate(45deg);
+    }
+    .info-bg-four {
+        position: absolute;
+        top: 557px;
+        left: 355px;
+        transform: rotate(45deg);
+    }
+    .info-title {
+        margin-bottom: 20px;
+    }
+    .info-subtitle {
+        font-size: 37px;
+        line-height: 47px;
+        margin-bottom: 12px;
+    }
+    .info-mean {
+        font-size: 16px;
+        line-height: 31px;
+        margin: 0 auto 56px;
+        max-width: 522px;
+    }
+    .about-box {
+        padding: 131px 0 82px;
+    }
+    .about-title{
+        margin-bottom: 25px;
+    }
+    .about-mean {
+        max-width: 100%;
+        font-size: 42px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .about-photo {
+        height: 450px;
+        left: 30px;
+    }
+    .about-photo-two {
+        height: 110px;
+        position: absolute;
+        top: 393px;
+        right: 30px;
+        z-index: 14;
+    }
+    .about-blog {
+        padding: 549px 0 0 38px;
+    }
+    .round-page {
+        padding: 94px 0 110px;
+    }
+    .round-box {
+        max-width: 341px;
+        min-height: 367px;
+        padding: 40px 51px 33px;
+    }
+    .price {
+        min-height: 303px;
+    }
+    .price-page {
+        padding: 75px 0 45px;
+    }
+    .price-title {
+        font-size: 38px;
+        line-height: 38px;
+        margin-bottom: 8px;
+    }
+    .price-mean {
+        max-width: 320px;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0 auto 25px;
+    }
+    .price-photo-two {
+        height: 348px;
+        left: -134px;
+        top: -46px;
+    }
+    .price-photo {
+        height: 166px;
+    }
+    .footer-box-img {
+        margin-bottom: 21px;
+    }
+    .footer-box {
+        margin: 0 auto 40px;
+    }
+    .footer-box-mean {
+        max-width: 351px;
+        margin-bottom: 15px;
+    }
+    .footer-link-box{
+        margin-bottom: 35px;
+    }
+    h3 {
+        margin-bottom: 15px;
+    }
+    .footer-li {
+        margin-bottom: 14px;
+    }
+    .footer-end {
+        max-width: 533px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-end-title{
+        margin-bottom: 15px;
+    }
+    .footer-end-button{
+        margin-left: auto;
+    }
+}
+
+
+
+@media (max-width: 576px) {
+    /* from 576px to 480px*/
+    .container {
+        max-width: 481px;
+    }
+    .col-5 {
+        width: 92%;
+    }
+    .hero-title {
+        max-width: 401px;
+        min-height: 104px;
+        font-size: 53px;
+        line-height: 59px;
+        margin-bottom: 14px;
+    }
+
+    .hero-mean {
+        font-size: 20px;
+        max-width: 79%;
+        margin-bottom: 20px;
+    }
+
+    .hero-blog {
+        width: 87%;
+        padding: 117px 0 0 26px;
+    }
+
+    .hero-photo img {
+        height: 548px;
+    }
+
+    .life-blog-box {
+        padding: 49px 0 0 8px;
+    }
+
+    .life-box {
+        width: 100%;
+        padding: 60px 0 59px 15px;
+    }
+
+    .life-box-subtitle {
+        margin-bottom: 20px;
+    }
+
+    .life-box-title {
+        max-width: 79%;
+        line-height: 30px;
+        margin-bottom: 20px;
+        font-size: 37px;
+    }
+
+    .life-box-mean {
+        max-width: 90%;
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+    .life-link {
+        font-size: 16px;
+    }
+
+    .technology {
+        min-height: 981px;
+    }
+
+    .technology-box {
+        padding: 75px 0 0 17px;
+    }
+
+    .technology-title {
+        margin-bottom: 20px;
+    }
+
+    .technology-subtitle {
+        line-height: 40px;
+        margin-bottom: 20px;
+        font-size: 37px;
+    }
+
+    .technology-link {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .technology-part-photo {
+        height: 380px;
+        left: 20px;
+    }
+
+    .technology-sub-photo {
+        height: 90px;
+        position: absolute;
+        top: 62px;
+        left: -1px;
+    }
+
+    .technology-mean-photo {
+        position: absolute;
+        bottom: -457px;
+        left: 154px;
+        z-index: 8;
+        height: 86px;
+    }
+
+    .partner-umbrella-photo {
+        top: -104px;
+        height: 260px;
+    }
+
+    .partner-title {
+        margin-bottom: 20px;
+    }
+
+    .partner-subtitle {
+        max-width: 400px;
+        font-size: 37px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .partner-mean {
+        font-size: 16px;
+        line-height: 27px;
+        margin-bottom: 36px;
+    }
+
+    .partner-card-title {
+        font-size: 22px;
+    }
+
+    .partner-card {
+        padding: 30px 34px;
+    }
+
+    .partner-box {
+        padding: 90px 55px 66px;
+    }
+
+    .info-box {
+        padding: 51px 0 64px;
+    }
+
+    .info-subtitle {
+        font-size: 29px;
+        line-height: 41px;
+    }
+
+    .info-mean {
+        font-size: 14px;
+        line-height: 31px;
+        margin: 0 auto 40px;
+        max-width: 457px;
+    }
+    .info-card img {
+        height: 54px;
+    }
+    .info-photo {
+        margin-bottom: 20px;
+    }
+    .info-card-title {
+        font-size: 20px;
+        line-height: 15px;
+    }
+    .info-card-mean {
+        max-width: 202px;
+    }
+    .info-bg {
+        width: 409px;
+        top: 481px;
+    }
+    .info-bg-two {
+        height: 191px;
+        top: 734px;
+        right: 62px;
+    }
+    .about-box {
+        padding: 109px 0 60px;
+    }
+    .about-photo {
+        height: 380px;
+        left: 20px;
+    }
+    .about-photo-three {
+        height: 98px;
+        top: -41px;
+        left: -2px;
+    }
+    .about-photo-two {
+        height: 96px;
+        top: 332px;
+        right: 36px;
+    }
+    .about-blog {
+        padding: 484px 0 0 27px;
+    }
+    .about-title {
+        margin-bottom: 20px;
+    }
+    .about-mean {
+        max-width: 90%;
+        font-size: 37px;
+        line-height: 41px;
+    }
+    .about-item {
+        max-width: 393px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .about-link {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .round-box {
+        max-width: 277px;
+        min-height: 320px;
+        padding: 38px 37px 33px;
+    }
+    .round-page {
+        padding: 82px 0 100px;
+    }
+    .round-title {
+        max-width: 159px;
+        min-height: 68px;
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    .round-mean {
+        max-width: 199px;
+        min-height: 39px;
+        font-size: 15px;
+        line-height: 17px;
+        margin-bottom: 65px;
+    }
+    .price {
+        min-height: 283px;
+    }
+    .price-title {
+        font-size: 35px;
+        line-height: 30px;
+    }
+    .price-photo-two {
+        height: 315px;
+        left: -131px;
+        top: -33px;
+    }
+    .price-mean {
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0 auto 13px;
+    }
+    .price-photo {
+        height: 156px;
+    }
+    .footer-box-img {
+        margin-bottom: 20px;
+    }
+    .footer-end {
+        max-width: 444px;
+    }
+}
+
+
+@media (max-width: 480px) {
+/*from 480px to 320px*/
+    .container {
+        max-width: 310px;
+    }
+    .col-3 {
+        width: 97.33%;
+    }
+    .col-4 {
+        width: 97.33%;
+    }
+    .col-5 {
+        width: 100%;
+    }
+    .header-menu {
+        padding: 30px 0;
+    }
+    .header-menu img {
+        height: 30px;
+    }
+    .hero{
+        min-height: 430px;
+        margin-top: 90px;
+    }
+    .hero-blog {
+        width: 87%;
+        padding: 87px 0 0 0;
+    }
+    .hero-title {
+        max-width: 100%;
+        min-height: 93px;
+        font-size: 40px;
+        line-height: 43px;
+        margin-bottom: 14px;
+    }
+    .hero-mean {
+        font-size: 19px;
+        max-width: 98%;
+        margin-bottom: 15px;
+    }
+    .hero-photo img {
+        height: 429px;
+    }
+    .hero-button {
+    font-size: 14px;
+    line-height: 14px;
+    padding: 17px 39px 17px 19px;
+    }
+    .hero-button img {
+        height: 11px;
+    }
+    .life-box {
+        padding: 55px 0 55px 0;
+    }
+    .life-blog img {
+        height: 199px;
+    }
+    .life-box-mean {
+        max-width: 100%;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .life-blog {
+    max-width: 273px;
+    padding: 28px 26px;
+    margin-bottom: 16px;
+    }
+    .life-blog-box {
+        padding: 46px 0 0 8px;
+    }
+    .life-box-subtitle {
+        margin-bottom: 15px;
+    }
+    .life-box-title {
+        max-width: 91%;
+        line-height: 30px;
+        margin-bottom: 15px;
+        font-size: 27px;
+    }
+    .life-link, .technology-link, .about-link img{
+        height: 10px;
+    }
+    .technology {
+        min-height: 736px;
+    }
+    .technology-box {
+        padding: 62px 0 0 0;
+    }
+    .technology-sub-photo {
+        height: 74px;
+        top: 40px;
+    }
+    .technology-subtitle {
+        line-height: 33px;
+        margin-bottom: 15px;
+        font-size: 33px;
+    }
+    .technology-photo-box {
+        padding: 70px 0 0 34px;
+    }
+    .technology-part-photo {
+        height: 250px;
+        left: 16px;
+    }
+    .technology-mean-photo {
+        bottom: -316px;
+        left: -20px;
+        height: 67px;
+    }
+    .technology-mean {
+        max-width: 250px;
+        line-height: 24px;
+        font-size: 16px;
+    }
+    .partner-box {
+        padding: 69px 0 59px;
+    }
+    .partner-card {
+        padding: 30px 15px;
+    }
+    .partner-bg-dog {
+        height: 115px;
+        bottom: -20px;
+    }
+    .partner-umbrella-photo {
+        top: -81px;
+        height: 205px;
+    }
+    .partner-title {
+        margin-bottom: 15px;
+    }
+    .partner-subtitle {
+        max-width: 350px;
+        font-size: 34px;
+        line-height: 36px;
+        margin-bottom: 15px;
+    }
+    .info-subtitle {
+        max-width: 100%;
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .info-mean {
+        font-size: 12px;
+        line-height: 22px;
+        margin: 0 auto 36px;
+        max-width: 292px;
+    }
+    .info-card-title {
+        font-size: 18px;
+        line-height: 11px;
+    }
+    .info-bg {
+        width: 394px;
+        top: 492px;
+        right: 0;
+        left: -39px;
+    }
+    .info-bg-two {
+        height: 176px;
+        top: 741px;
+        right: -5px;
+    }
+    .info-card img {
+        height: 48px;
+    }
+    .info-bg-three {
+        left: 258px;
+        top: 256px;
+    }
+    .info-bg-four {
+        top: 453px;
+        left: 267px;
+    }
+    .about-blog {
+        padding: 335px 0 0 0;
+    }
+    .about-title, .about-item {
+        margin-bottom: 15px;
+    }
+    .about-photo {
+        height: 250px;
+        left: 9px;
+    }
+    .about-photo-two {
+        height: 74px;
+        top: 212px;
+        right: 20px;
+    }
+    .about-photo-three {
+        height: 78px;
+        top: -30px;
+        left: -10px;
+    }
+    .about-mean {
+        max-width: 96%;
+        font-size: 29px;
+        line-height: 37px;
+        margin-bottom: 15px;
+    }
+    .round-box {
+        max-width: 263px;
+        min-height: 310px;
+        padding: 42px 15px 12px;
+    }
+    .round-page {
+        padding: 67px 0 93px;
+    }
+    .price-photo {
+        height: 94px;
+        right: 5px;
+    }
+    .price-photo-two {
+        height: 211px;
+        left: -131px;
+        top: -33px;
+    }
+    .footer-blog {
+        padding: 75px 0 10px;
+    }
+    .footer-box {
+        margin: 0 auto 40px;
+        padding-right: 0;
+    }
+    .footer-box-mean {
+        max-width: 299px;
+    }
+    .footer-button img {
+        height: 14px;
+        margin-top: 4px;
+    }
+    .footer-end {
+        max-width: 298px;
+    }
+    .footer-end-title {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .footer-box-img {
+        margin-bottom: 15px;
+        height: 30px;
+    }
+}

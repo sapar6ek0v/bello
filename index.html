@@ -6,6 +6,7 @@
     <title>Project 19</title>
     <link href="https://fonts.googleapis.com/css2?&family=Roboto:wght@100;300;400;500;700;900family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 <header>
@@ -14,9 +15,9 @@
             <img src="img/logo.png" alt="bello-logo">
             <nav class="header-nav">
                 <ul class="header-ul">
-                    <li class="header-li"><a href="#" class="header-link">Life insurance</a></li>
-                    <li class="header-li"><a href="#" class="header-link">Why Bello</a></li>
-                    <li class="header-li"><a href="#" class="header-link">Help</a></li>
+                    <li class="header-li"><a href="#life" class="header-link">Life insurance</a></li>
+                    <li class="header-li"><a href="#why-bello" class="header-link">Why Bello</a></li>
+                    <li class="header-li"><a href="#help" class="header-link">Help</a></li>
                 </ul>
             </nav>
             <div class="header-login">Log in</div>
@@ -26,7 +27,7 @@
 </header>
 
 
-<div class="hero">
+<div id="life"  class="hero">
     <div class="container">
         <div class="hero-blog">
             <div class="hero-subtitle">MEET BELLO</div>
@@ -68,7 +69,7 @@
 </div>
 
 
-<div class="technology">
+<div id="why-bello" class="technology">
     <div class="container">
         <div class="row">
             <div class="col-6">
@@ -97,7 +98,8 @@
 
 <div class="partner">
     <div class="container">
-        <div class="partner-box">
+        <div class="partner-box" data-flickity>
+            <img  class="partner-bg-dog" src="img/dog-info.png" alt="dog">
             <div class="partner-umbrella-box">
                 <img  class="partner-umbrella-photo" src="img/technology-umbrella.svg" alt="technology-umbrella">
             </div>
@@ -137,10 +139,9 @@
 </div>
 
 
-<div class="info">
+<div  class="info">
     <div class="container">
       <div class="info-box">
-          <img  class="info-bg-dog" src="img/dog-info.png" alt="dog">
           <img  class="info-bg" src="img/info-line.png" alt="info-line">
           <img  class="info-bg-two" src="img/confetti%201.png" alt="confetti">
           <img  class="info-bg-three" src="img/tail.png" alt="tail">
@@ -190,7 +191,7 @@
 </div>
 
 
-<div class="about">
+<div id="help" class="about">
     <div class="container">
         <div class="about-box">
             <div class="row">
@@ -245,8 +246,8 @@
                         <a href="#" class="round-link pink-bg">Tell me more<img src="img/pink-vector.png" alt="pink-link"></a>
                     </div>
                 </div>
-                <div class="col-3 blue">
-                    <div class="round-box">
+                <div class="col-3 ">
+                    <div class="round-box blue">
                         <div class="round-title blue-bg">Insurance 101 </div>
                         <div class="round-mean">The ultimate guide to life insurance.</div>
                         <a href="#" class="round-link blue-bg">Become an expert<img src="img/life-link.png" alt="blue-link"></a>
@@ -272,35 +273,74 @@
 
 <footer>
     <div class="container">
-        <div class="row">
-            <div class="footer-box">
-                <img  class="footer-box-img" src="img/logo.png" alt="logo">
-                <div class="footer-box-mean">
-                    Bello is a trading name of Bello Insurance Services LLC.
-                    Bello policies are issued by [Insert Underwriter here].
-                </div>
-                <label class="footer-massage">
-                    <input type="text" class="footer-input">
-                    <button class="footer-button">Go <img src="img/button-vector.png" alt="vector"></button>
-                </label>
-                <div class="footer-link">
-                    <a href="#"><img src="img/logo-1.png" alt="logo-1"></a>
-                    <a href="#"><img src="img/logo-2.png" alt="logo-2"></a>
-                    <a href="#"><img src="img/logo-3.png" alt="logo-3"></a>
-                    <a href="#"><img src="img/logo-4.png" alt="logo-4"></a>
-                    <a href="#"><img src="img/logo-5.png" alt="logo-5"></a>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="footer-link-box">
-                    <h3>Resources</h3>
-                    <nav class="footer-nav">
-                        <ul class="footer-ul">
+       <div class="footer-blog">
+           <div class="row">
+               <div class="footer-box">
+                   <img  class="footer-box-img" src="img/logo.png" alt="logo">
+                   <div class="footer-box-mean">
+                       Bello is a trading name of Bello Insurance Services LLC.
+                       Bello policies are issued by [Insert Underwriter here].
+                   </div>
+                   <label class="footer-massage">
+                       <input type="text" class="footer-input">
+                       <button class="footer-button"><a class="footer-email" href="mailto:user@gmail.com">Go <img src="img/button-vector.png" alt="vector"></a></button>
+                   </label>
+                   <div class="footer-link">
+                       <a target="_blank" class="footer-coshial" href="https://www.facebook.com/campaign/landing.php?&campaign_id=1637278002&extra_1=s%7Cc%7C514542712464%7Ce%7Cfacebook%7C&placement=&creative=514542712464&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1637278002%26adgroupid%3D62332989517%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1009827%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjw2P-KBhByEiwADBYWCtaotB7eHwEtQDzaV2mjMbq5swFrIj3aJ39YIJEyuHTmnCVyVIvQGhoC11IQAvD_BwE"><img src="img/logo-1.png" alt="logo-1"></a>
+                       <a target="_blank" class="footer-coshial" href="https://www.instagram.com/"><img src="img/logo-2.png" alt="logo-2"></a>
+                       <a target="_blank" class="footer-coshial" href="https://www.youtube.com/?hl=RU"><img src="img/logo-3.png" alt="logo-3"></a>
+                       <a target="_blank" class="footer-coshial" href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiSoqXo_LrzAhWC17IKHY3NB_8YABAAGgJscg&ae=2&ohost=www.google.com&cid=CAESQeD2uOHlJThsTEIWx8cy_ISdDZl_0EOgqCQ4FD9OSkuL-bLhq0GnfzKbnizA4vRGhMMzNGTJ3uTuG2lyFSqgeJtg&sig=AOD64_3OQSCMvgWkc2uFAhzKF9WDjvi8nA&q&adurl&ved=2ahUKEwiN653o_LrzAhVymIsKHZPiAQ0Q0Qx6BAgCEAE"><img src="img/logo-4.png" alt="logo-4"></a>
+                       <a target="_blank" class="footer-coshial" href="https://www.apple.com/ru/apple-music/"><img src="img/logo-5.png" alt="logo-5"></a>
+                   </div>
+               </div>
+               <div class="col-5">
+                   <div class="footer-link-box">
+                       <h3>Resources</h3>
+                       <nav class="footer-nav">
+                           <ul class="footer-ul">
+                               <li class="footer-li"><a href="#" class="footer-link">Term life insurance plans</a></li>
+                               <li class="footer-li"><a href="#" class="footer-link">Insurance calculator</a></li>
+                               <li class="footer-li"><a href="#" class="footer-link">Guide to life insurance</a></li>
+                               <li class="footer-li"><a href="#" class="footer-link">Contact</a></li>
+                               <li class="footer-li"><a href="#" class="footer-link">FAQs</a></li>
+                           </ul>
+                       </nav>
+                   </div>
+               </div>
+               <div class="col-5">
+                   <div class="footer-link-box">
+                       <h3>Magazine</h3>
+                       <nav class="footer-nav">
+                           <ul class="footer-ul">
+                               <li class="footer-li"><a href="#" class="footer-link">Insurance</a></li>
+                               <li class="footer-li"><a href="#" class="footer-link">Finances</a></li>
+                               <li class="footer-li"><a href="#" class="footer-link">Health</a></li>
+                               <li class="footer-li"><a href="#" class="footer-link">Updates</a></li>
+                           </ul>
+                       </nav>
+                   </div>
+               </div>
+               <div class="col-5">
+                   <div class="footer-link-box">
+                       <h3>More</h3>
+                       <nav class="footer-nav">
+                           <ul class="footer-ul">
+                               <li class="footer-li"><a href="#" class="footer-link">Claims</a></li>
+                               <li class="footer-li"><a href="#" class="footer-link">Terms</a></li>
+                               <li class="footer-li"><a href="#" class="footer-link">Privacy</a></li>
+                               <li class="footer-li"><a href="#" class="footer-link">Licenses</a></li>
+                           </ul>
+                       </nav>
+                   </div>
+               </div>
+           </div>
+       </div>
 
-                        </ul>
-                    </nav>
-                </div>
+        <div class="footer-end">
+            <div class="footer-end-title">
+                &copy; 2020 Bello insurance Services LLC. All right reserved.
             </div>
+            <button class="footer-end-button" type="button">Get my price </button>
         </div>
     </div>
 </footer>

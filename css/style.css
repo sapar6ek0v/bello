@@ -11,6 +11,10 @@
     display: flex;
     flex-wrap: wrap;
 }
+.col-5{
+    width: 20%;
+    padding: 0 15px;
+}
 .col-3{
     width: 25%;
     padding: 0 15px;
@@ -27,13 +31,15 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 header{
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
+    margin: 0 auto;
     background: #FFFFFF;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     border-radius: 0;
+    z-index: 40;
 }
 .header-menu{
     display: flex;
@@ -65,6 +71,7 @@ header{
 .header-link:hover{
     color: #007188;
     text-decoration: underline;
+
 }
 .header-login:hover{
     color: #007188;
@@ -79,14 +86,22 @@ header{
     line-height: 17px;
     text-transform: uppercase;
     color: #1D253C;
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #1D253C;
     border: 1px solid rgba(29, 37, 60, 0.2);
     box-sizing: border-box;
     border-radius: 4px;
     padding: 13px 31px;
+    position: relative;
+}
+.header-button:active{
+    top: .1em;
+    left: .1em;
+    background: #126F85;
+    transition: 300ms;
 }
 .hero{
-    height: 100vh;
-    min-height: calc(100vh - 122px);
+    height: calc(100vh - 105pc);
+    min-height: 600px;
     position: relative;
     margin-top: 105px;
 }
@@ -126,9 +141,16 @@ header{
     text-transform: uppercase;
     color: #FFFFFF;
     padding: 21px 60px 21px 29px;
-    background: #F46752;
+    background: linear-gradient(#FB9575, #F45A38 48%, #f64d2a 52%, #f65c4e);
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
     border: 1px solid rgba(29, 37, 60, 0.2);
     border-radius: 4px;
+    position: relative;
+}
+.hero-button:active{
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
 }
 .hero-photo img{
     position: absolute;
@@ -254,7 +276,12 @@ header{
     background: #F8F8F8;
     position: relative;
 }
-.partner-box{
+.partner-bg-dog{
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+}
+.partner-box {
     padding: 90px 50px 85px;
 }
 .partner-umbrella-photo {
@@ -374,23 +401,24 @@ header{
     text-align: center;
 }
 .info-button{
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 19px;
     text-transform: uppercase;
     color: #FFFFFF;
-    background: #F46752;
+    background: linear-gradient(#FB9575, #F45A38 48%, #f64d2a 52%, #f65c4e);
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
     border: 1px solid rgba(29, 37, 60, 0.2);
     box-sizing: border-box;
     border-radius: 4px;
     padding: 20px 23px 20px ;
 }
-.info-bg-dog{
-    position: absolute;
-    top: -154px;
-    right: -85px;
+.info-button:active{
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
 }
 .info-bg{
+    width: 755px;
     position: absolute;
     top: 370px;
     right: 0;
@@ -398,9 +426,10 @@ header{
     margin: 0 auto;
 }
 .info-bg-two{
+    height: 186px;
     position: absolute;
-    top: 205px;
-    right: -71px;
+    top: 249px;
+    right: -74px;
 }
 .info-bg-three{
     position: absolute;
@@ -467,8 +496,6 @@ header{
 }
 .about-link{
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 22px;
     color: #007189;
@@ -552,16 +579,22 @@ header{
     margin-bottom: 39px;
 }
 .price-button{
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 19px;
     text-transform: uppercase;
     color: #FFFFFF;
-    background: #F46752;
+    background: linear-gradient(#FB9575, #F45A38 48%, #f64d2a 52%, #f65c4e);
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
     border: 1px solid rgba(29, 37, 60, 0.2);
     box-sizing: border-box;
     border-radius: 4px;
     padding: 21px 35px;
+}
+.price-button:active{
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
 }
 .price-photo{
     position: absolute;
@@ -572,6 +605,12 @@ header{
     position: absolute;
     top: -62px;
     left: -20px;
+}
+.footer-blog{
+    padding: 75px 0 40px;
+}
+.footer-box{
+    padding-right: 120px;
 }
 .footer-box-img{
     margin-bottom: 33px;
@@ -594,7 +633,10 @@ header{
     background: #FFFFFF;
     border: 1px solid #CCCCCC;
     box-sizing: border-box;
-    border-radius: 3px;
+    border-radius: 3px 0 3px 0;
+}
+.footer-input:hover{
+    border: 1px solid #126F85;
 }
 .footer-button{
     max-width: 84px;
@@ -604,14 +646,84 @@ header{
     border-radius: 0 5px 5px 0;
     font-size: 14px;
     line-height: 23px;
-    color: #FFFFFF;
     display: flex;
     align-items: center;
     padding: 19px;
 }
+.footer-email{
+    color: #FFFFFF;
+    display: flex;
+    text-decoration: none;
+}
+.footer-button:hover{
+    background: deepskyblue;
+    transition: 300ms;
+}
 .footer-button img{
+    height: 20px;
     padding-left: 4px;
 }
-.footer-link a{
+.footer-link .footer-coshial{
     padding-right: 34px;
+    text-decoration: none;
+}
+.footer-link .footer-coshial:last-child{
+    padding-right: 0;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #1D253C;
+    margin-bottom: 22px;
+}
+.footer-li{
+    list-style: none;
+    margin-bottom: 19px;
+}
+.footer-li:last-child{
+    margin-bottom: 0;
+}
+.footer-link{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5A6482;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: darkgoldenrod;
+    transition: 300ms;
+    text-decoration: underline;
+}
+.footer-end{
+    background: #F8F8F8;
+    padding: 18px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-end-title{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5A6482;
+}
+.footer-end-button{
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #1D253C;
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #1D253C;
+    border: 1px solid rgba(29, 37, 60, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 13px 31px;
+}
+.footer-end-button:active{
+    top: .1em;
+    left: .1em;
+    background: #126F85;
+    transition: 300ms;
 }
