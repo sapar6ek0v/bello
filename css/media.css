@@ -182,8 +182,26 @@
         right: -164px;
         opacity: 0.8;
     }
+    .header-nav{
+        padding-right: 0;
+    }
+    .header-menu{
+        justify-content: space-between;
+    }
     .header-login, .header-button, .header-ul {
         display: none;
+    }
+    .header-button-two{
+        display: block;
+        background: none;
+        border: none;
+    }
+    .header-link{
+        color: white;
+    }
+    .header-link:hover{
+        text-decoration: lightseagreen;
+        color: lightseagreen;
     }
     .life-blog-box {
         padding: 70px 0 0 40px;
@@ -210,15 +228,12 @@
         line-height: 27px;
         margin-bottom: 22px;
     }
-
     .technology {
-        min-height: 1170px;
+        min-height: 1219px;
     }
-
     .technology-box {
         padding: 125px 0 0 46px;
     }
-
     .technology-subtitle {
         margin-bottom: 25px;
     }
@@ -241,15 +256,13 @@
         top: 58px;
         left: -4px;
     }
-
     .technology-mean-photo {
         position: absolute;
-        bottom: -640px;
-        left: 247px;
+        top: 590px;
+        left: -32px;
         z-index: 8;
         height: 118px;
     }
-
     .partner-card {
         margin-bottom: 25px;
     }
@@ -327,8 +340,8 @@
 
 @media (max-width: 768px) {
 /*768px to 576px*/
-    .container{
-        max-width: 550px;
+    .container {
+        max-width: 680px;
     }
     .col-3 {
         width: 70%;
@@ -342,6 +355,16 @@
         width: 81%;
         margin: 0 auto;
     }
+    .header-menu img {
+        padding-left: 25px;
+    }
+    .hero{
+        min-height: 562px;
+    }
+    .hero-blog {
+        width: 100%;
+        padding: 130px 0 0 15px;
+    }
     .hero-title {
         max-width: 453px;
         min-height: 136px;
@@ -353,11 +376,10 @@
         margin-bottom: 17px;
     }
     .hero-photo img {
-        height: 612px;
+        height: 575px;
         top: 1px;
-        right: -174px;
-        opacity: 0.8;
-        background: rgba(255,0,255,0.6);
+        right: -208px;
+        opacity: 0.9;
     }
     .life-box-title {
         max-width: 82%;
@@ -370,6 +392,10 @@
     .technology-box {
         padding: 86px 0 0 46px;
     }
+    .technology-photo-box {
+        margin-bottom: 20px;
+        padding: 95px 0 0;
+    }
     .technology-part-photo {
         height: 450px;
         left: 30px;
@@ -381,8 +407,8 @@
     }
     .technology-mean-photo {
         position: absolute;
-        bottom: -536px;
-        left: 185px;
+        top: 500px;
+        left: -38px;
         z-index: 8;
         height: 101px;
     }
@@ -457,6 +483,15 @@
     .about-blog {
         padding: 549px 0 0 38px;
     }
+    .partner-card {
+        max-width: 350px;
+        min-height: 335px;
+    }
+    .partner-card-title {
+        font-size: 28px;
+        line-height: 26px;
+        margin-bottom: 25px;
+    }
     .round-page {
         padding: 94px 0 110px;
     }
@@ -493,9 +528,6 @@
     .footer-box-img {
         margin-bottom: 21px;
     }
-    .footer-box {
-        margin: 0 auto 40px;
-    }
     .footer-box-mean {
         max-width: 351px;
         margin-bottom: 15px;
@@ -516,6 +548,7 @@
     }
     .footer-end-title{
         margin-bottom: 15px;
+        padding-left: 25px;
     }
     .footer-end-button{
         margin-left: auto;
@@ -527,7 +560,7 @@
 @media (max-width: 576px) {
     /* from 576px to 480px*/
     .container {
-        max-width: 481px;
+        max-width: 476px;
     }
     .col-5 {
         width: 92%;
@@ -569,7 +602,7 @@
     }
 
     .life-box-title {
-        max-width: 79%;
+        max-width: 98%;
         line-height: 30px;
         margin-bottom: 20px;
         font-size: 37px;
@@ -597,7 +630,10 @@
     .technology-title {
         margin-bottom: 20px;
     }
-
+    .technology-photo-box {
+        padding: 95px 0 0 0;
+        margin-bottom: 20px;
+    }
     .technology-subtitle {
         line-height: 40px;
         margin-bottom: 20px;
@@ -620,15 +656,13 @@
         top: 62px;
         left: -1px;
     }
-
     .technology-mean-photo {
         position: absolute;
-        bottom: -457px;
-        left: 154px;
+        top: 435px;
+        left: -31px;
         z-index: 8;
         height: 86px;
     }
-
     .partner-umbrella-photo {
         top: -104px;
         height: 260px;
@@ -793,7 +827,7 @@
 @media (max-width: 480px) {
 /*from 480px to 320px*/
     .container {
-        max-width: 310px;
+        max-width: 380px;
     }
     .col-3 {
         width: 97.33%;
@@ -809,6 +843,10 @@
     }
     .header-menu img {
         height: 30px;
+        padding-left: 5px;
+    }
+    .header-button-two img{
+        height: 25px;
     }
     .hero{
         min-height: 430px;
@@ -816,7 +854,7 @@
     }
     .hero-blog {
         width: 87%;
-        padding: 87px 0 0 0;
+        padding: 87px 0 0 10px;
     }
     .hero-title {
         max-width: 100%;
@@ -864,16 +902,16 @@
         margin-bottom: 15px;
     }
     .life-box-title {
-        max-width: 91%;
+        max-width: 99%;
         line-height: 30px;
         margin-bottom: 15px;
-        font-size: 27px;
+        font-size: 26px;
     }
-    .life-link, .technology-link, .about-link img{
-        height: 10px;
+    .life-link img{
+        height: 9px;
     }
     .technology {
-        min-height: 736px;
+        min-height: 745px;
     }
     .technology-box {
         padding: 62px 0 0 0;
@@ -885,22 +923,26 @@
     .technology-subtitle {
         line-height: 33px;
         margin-bottom: 15px;
-        font-size: 33px;
+        font-size: 30px;
+    }
+    .technology-link img{
+        height: 9px;
     }
     .technology-photo-box {
-        padding: 70px 0 0 34px;
+    padding: 70px 0 0;
+    margin-bottom: 44px;
     }
     .technology-part-photo {
         height: 250px;
         left: 16px;
     }
     .technology-mean-photo {
-        bottom: -316px;
-        left: -20px;
-        height: 67px;
+    top: 291px;
+    left: -20px;
+    height: 67px;
     }
     .technology-mean {
-        max-width: 250px;
+        max-width: 100%;
         line-height: 24px;
         font-size: 16px;
     }
@@ -923,9 +965,15 @@
     }
     .partner-subtitle {
         max-width: 350px;
-        font-size: 34px;
+        font-size: 31px;
         line-height: 36px;
         margin-bottom: 15px;
+    }
+    .partner-mean {
+        font-size: 15px;
+        line-height: 27px;
+        margin: 0 auto 26px;
+        max-width: 100%;
     }
     .info-subtitle {
         max-width: 100%;
@@ -947,8 +995,10 @@
         top: 492px;
         right: 0;
         left: -39px;
+        opacity: 0.3;
     }
     .info-bg-two {
+        opacity: 0.3;
         height: 176px;
         top: 741px;
         right: -5px;
@@ -974,6 +1024,9 @@
         height: 250px;
         left: 9px;
     }
+    .about-link img{
+        height: 9px;
+    }
     .about-photo-two {
         height: 74px;
         top: 212px;
@@ -991,27 +1044,28 @@
         margin-bottom: 15px;
     }
     .round-box {
-        max-width: 263px;
+        max-width: 282px;
         min-height: 310px;
         padding: 42px 15px 12px;
+        margin: 0 auto 20px
     }
     .round-page {
         padding: 67px 0 93px;
+    }
+    .round-link img {
+        height: 9px;
     }
     .price-photo {
         height: 94px;
         right: 5px;
     }
     .price-photo-two {
-        height: 211px;
-        left: -131px;
-        top: -33px;
+        display: none;
     }
     .footer-blog {
         padding: 75px 0 10px;
     }
     .footer-box {
-        margin: 0 auto 40px;
         padding-right: 0;
     }
     .footer-box-mean {
@@ -1031,5 +1085,13 @@
     .footer-box-img {
         margin-bottom: 15px;
         height: 30px;
+    }
+    h3 {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .footer-link {
+        font-size: 14px;
+        line-height: 16px;
     }
 }
