@@ -1,4 +1,4 @@
-## Demo bello
+## bello
 
 Open in browser to view [url](https://bello-nine.vercel.app/).
 
